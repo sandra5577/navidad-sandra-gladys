@@ -3,32 +3,47 @@
 /* **************************** */
 
 .formulario {
-    &__nombre {
-    }
-    &__inputNombre {
-    }
-    &__email {
-    }
-    &__inputEmail {
-    }
-    &__localidad {
-    }
-    &__inputLocalidad {
-    }
-    &__tituloEncuesta {
-    }
-    &__encuesta {
-    }
-    &__inputEncuesta {
-      &--redes {
-      }
-      &--email {
-      }
-      &--otros {
-      }
-    }
-    &__corchete {
-    }
-    &__enviar {
+  &__nombre {
+  }
+  &__inputNombre {
+    padding-left: 1rem;
+    &::placeholder {
+      color: lighten($color-rojo, 30%);
+      font-style: italic;
     }
   }
+  &__email {
+  }
+  &__inputEmail {
+    padding-left: 1rem;
+    &::placeholder {
+      color: lighten($color-rojo, 30%);
+      font-style: italic;
+    }
+  }
+  &__localidad {
+  }
+  &__inputLocalidad {
+    padding-left: 1rem;
+    &::placeholder {
+      color: lighten($color-rojo, 30%);
+      font-style: italic;
+    }
+  }
+  &__tituloEncuesta {
+  }
+  &__encuesta {
+  }
+  &__inputEncuesta {
+    &--redes {
+    }
+    &--email {
+    }
+    &--otros {
+    }
+  }
+  &__corchete {
+  }
+  &__enviar {
+  }
+}

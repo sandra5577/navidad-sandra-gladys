@@ -52,6 +52,7 @@ body {
 
 .main {
   height: 50vh;
+  text-align: center;
 }
 
 .footer {
@@ -190,3 +191,74 @@ body {
 /* **************************** */
 /* FORMULARIOS */
 /* **************************** */
+.formulario__inputNombre {
+  padding-left: 1rem;
+}
+
+.formulario__inputNombre::-webkit-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputNombre:-ms-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputNombre::-ms-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputNombre::placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputEmail {
+  padding-left: 1rem;
+}
+
+.formulario__inputEmail::-webkit-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputEmail:-ms-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputEmail::-ms-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputEmail::placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputLocalidad {
+  padding-left: 1rem;
+}
+
+.formulario__inputLocalidad::-webkit-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputLocalidad:-ms-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputLocalidad::-ms-input-placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
+
+.formulario__inputLocalidad::placeholder {
+  color: #fcdae0;
+  font-style: italic;
+}
