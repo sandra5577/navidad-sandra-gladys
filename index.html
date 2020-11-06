@@ -19,34 +19,92 @@
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
 
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- links de estilos -->
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- Se cambia el tema de algunos navegadores -->
     <meta name="theme-color" content="#fafafa" />
   </head>
   <body>
-    <div id="container">
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
-      </nav>
-    </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
+    <!-- MAIN -->
+    <main class="main">
+      <!-- titulos -->
+      <h1 class="main__titulo">La Cesta de Navidad 2020</h1>
+      <h3 class="main__subtitulo">
+        Suscríbete y podrás participar en el sorteo el día 24 de Diciembre del
+        2020
+      </h3>
+      <!-- MÓDULO Formulario -->
+      <form action="gracias.html" class="main__formulario">
+        <!-- nombre, email, localidad -->
+        <label for="nombre" class="formulario__nombre">* Nombre</label>
+        <input
+          type="text"
+          id="nombre"
+          class="formulario__inputNombre"
+          name="nombre"
+          placeholder="nombre completo"
+          required
+        />
+        <label for="correo" class="formulario__email">* Email</label>
+        <input
+          type="email"
+          id="correo"
+          class="formulario__inputEmail"
+          name="email"
+          placeholder="correo personal"
+          required
+        />
+        <label for="localidad" class="formulario__localidad">Localidad</label>
+        <input
+          type="text"
+          id="localidad"
+          class="formulario__inputLocalidad"
+          name="localidad"
+          placeholder="donde vive"
+        />
+        <!-- Encuesta -->
+        <h5 class="formulario__tituloEncuesta">¿Cómo has llegado aquí?</h5>
+        
+        <section id="encuesta">
+          <label for="encuesta-redes" class="formulario__encuesta"
+            >Redes Sociales</label
+          >
+          <input
+            id="encuesta-redes"
+            class="formulario__inputEncuesta formulario__inputEncuesta--redes"
+            type="radio"
+            name="encuesta"
+            value="redes"
+          />
+          <label for="encuesta-email" class="formulario__encuesta">Email</label>
+          <input
+            id="encuesta-email"
+            class="formulario__inputEncuesta formulario__inputEncuesta--email"
+            type="radio"
+            name="encuesta"
+            value="email"
+          />
+          <label for="encuesta-otros" class="formulario__encuesta">Otros</label>
+          <input
+            id="encuesta-otros"
+            class="formulario__inputEncuesta formulario__inputEncuesta--otros"
+            type="radio"
+            name="encuesta"
+            value="otros"
+          />
+        </section>
+        <h4 class="formulario__corchete">&#125;</h4>
+        <button type="submit" class="formulario__enviar btnEnviar">Enviar</button>
+      </form>
     </main>
-    <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h6>&copy;Copyright</h6>
-    </footer>
-    </div>
-    <!-- *** Google Analytics *** -->
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
   </body>
 </html>

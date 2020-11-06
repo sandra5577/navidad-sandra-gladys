@@ -2,9 +2,8 @@
 /* IMPORTAR PARCIALES PARA COMPILAR */
 /* **************************** */
 
-// Normalizadores de los Navegadores
-@import 'component/reset/normalize';
-@import 'component/reset/reset';
+// Functions
+@import 'component/functions';
 
 // Variables
 @import 'component/variables';
