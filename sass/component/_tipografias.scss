@@ -2,3 +2,19 @@
 /* TIPOGRAFIAS */
 /* **************************** */
 
+// font-family: 'Rouge Script', cursive;
+.main {
+    font-family: Arial;
+    color: $color-beig;
+    &__titulo {
+      font-size: $font-size-titulo;
+      font-family: 'Rouge Script', cursive;
+      font-weight: 100;
+    }
+    &__subtitulo {
+      font-size: $font-size-parrafoAlto;
+      margin-bottom: 50px;
+    }
+    &__formulario {
+    }
+  }

@@ -2,3 +2,33 @@
 /* FORMULARIOS */
 /* **************************** */
 
+.formulario {
+    &__nombre {
+    }
+    &__inputNombre {
+    }
+    &__email {
+    }
+    &__inputEmail {
+    }
+    &__localidad {
+    }
+    &__inputLocalidad {
+    }
+    &__tituloEncuesta {
+    }
+    &__encuesta {
+    }
+    &__inputEncuesta {
+      &--redes {
+      }
+      &--email {
+      }
+      &--otros {
+      }
+    }
+    &__corchete {
+    }
+    &__enviar {
+    }
+  }

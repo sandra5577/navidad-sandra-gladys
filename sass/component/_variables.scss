@@ -2,3 +2,24 @@
 /* VARIABLES */
 /* **************************** */
 
+// Tipografía
+// font-family: 'Rouge Script', cursive;
+$font-titulo: "Rouge Script"; // Titulos H1
+$font-parrafo: Arial; // Todo menos los títulos H1
+
+// Tamaños tipográficos
+$font-size-base: 16px; // Base
+
+$font-size-titulo: convertir(64);
+$font-size-parrafoAlto: convertir(18);
+$font-size-parrafo: convertir(16);
+
+$font-size-despedida: convertir(122);
+$font-size-despedidaNombre: convertir(96);
+
+$font-size-llave: convertir(393);
+
+// Colores
+$color-blanco: #fff;
+$color-beig: #D9C6BA; 
+$color-rojo: #F24B6A;

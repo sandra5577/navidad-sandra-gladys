@@ -2,3 +2,85 @@
 /* GRIDS */
 /* **************************** */
 
+// Grid 4x7
+.main__formulario{
+    display: grid;
+    grid-template: {
+        columns: auto 1fr auto auto;
+        rows: 0px repeat(3, 40px) repeat(2, auto) 30px;
+    };
+    gap: 1rem;
+}
+
+
+
+.formulario {
+    // Label Nombre
+    &__nombre {
+        grid-row: 2/3;
+    }
+    // Input Nombre
+    &__inputNombre {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    // Label Email
+    &__email {
+        grid-row: 3/4;
+    }
+    // Input Email
+    &__inputEmail {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    // Label Localidad
+    &__localidad {
+        grid-row: 4/5;
+    }
+    // Input Localidad
+    &__inputLocalidad {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    // Label Encuesta
+    &__tituloEncuesta {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+
+    &__encuesta {
+
+    }
+    &__inputEncuesta {
+
+      &--redes {
+      }
+      &--email {
+      }
+      &--otros {
+      }
+    }
+    &__corchete {
+        grid-column: 3/4;
+        grid-row: 1/span-1;
+        font-size: $font-size-llave;
+        font-family: $font-titulo;
+        line-height: 0;
+        font-weight: 100;
+        align-self: center;
+    }
+    &__enviar {
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+  }
+
+  #encuesta{
+    grid-column: 2/3;
+    grid-row: 6/7;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

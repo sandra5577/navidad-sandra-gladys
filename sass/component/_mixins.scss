@@ -2,3 +2,11 @@
 /* MIXINS */
 /* **************************** */
 
+// Mixin - Background Image
+@mixin imagenFondo($url, $posX, $posY, $size, $rep: no-repeat, $att: scroll) {
+    background-image: url(#{$url});
+    background-position: $posX $posY;
+    background-size: $size;
+    background-repeat: $rep;
+    background-attachment: $att;
+}

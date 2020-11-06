@@ -1,4 +1,38 @@
 /* **************************** */
+
 /* LAYOUTS */
+
 /* **************************** */
 
+body {
+  background-image: radial-gradient(
+    circle,
+    #415d5f,
+    #334b4e,
+    #253a3d,
+    #18292d,
+    #0b1a1d
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100vh;
+
+}
+
+.main{
+  height: 50vh;
+}
+
+.footer {
+  height: 40vh;
+  width: 100%;
+  @include imagenFondo(
+    "../assets/img/desktop/cestanavidad.png",
+    center,top,
+    cover
+  );
+}
